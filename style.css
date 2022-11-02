@@ -1,0 +1,16 @@
+img {
+    width: 100%;
+  }
+
+  header {
+   margin-left: 10px;
+  }
+
+  .container {
+    width: 460px;
+    height: 275px;
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    grid-gap: 10px;
+    padding: 10px;
+  }
