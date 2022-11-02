@@ -7,10 +7,8 @@ img {
   }
 
   .container {
-    width: 460px;
-    height: 275px;
     display: grid;
-    grid-template-columns: repeat(3, 100%);
+    grid-template-columns: minmax(100px,350px) 1fr minmax(100px,350px);
     grid-gap: 10px;
     padding: 10px;
   }
